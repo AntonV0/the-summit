@@ -1,0 +1,49 @@
+a {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  color: orange;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+ 
+.nav-link:hover {
+  color: #5495ff;
+}
+
+.btn {
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  padding: 20px;
+  border: 3px solid red;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: red;
+  transition: color .2s ease-in, background-color .2s ease-in;
+}
+
+.btn:active {
+  font-size: 18px;
+  border: 3px solid white;
+  transition: font-size .1s ease-in-out;
+}
+
+.activity:hover {
+  background-color: #fff;
+  color: #5495ff;
+  transition: color .1s ease-in, background-color .1s ease-in;
+}
+ 
+.activity:active {
+  font-size: 40px;
+  transition: font-size .1s;
+}
